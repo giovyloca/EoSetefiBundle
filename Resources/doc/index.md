@@ -57,3 +57,17 @@ eo_setefi:
     password:             ~ # Required
 
 ```
+
+## Reference
+
+### Test environment endpoint
+
+```
+https://test.monetaonline.it/monetaweb/payment/2/xml
+```
+
+### Production environment endpoint
+
+```
+https://www.monetaonline.it/monetaweb/payment/2/xml
+```
