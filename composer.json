@@ -1,0 +1,32 @@
+{
+    "name":        "eo/setefi-bundle",
+    "type":        "symfony-bundle",
+    "description": "Setefi provider for JMSPaymentCoreBundle",
+    "keywords":    ["setefi", "sanpaolo"],
+    "homepage":    "https://github.com/eymengunay/EoSetefiBundle",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name": "Eymen Gunay",
+            "email": "eymen@egunay.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "symfony/symfony": ">=2.4,<2.6-dev",
+        "jms/payment-core-bundle": "~1.0",
+        "eo/jms-payment-extra-bundle": "dev-master",
+        "guzzle/guzzle": "~3.7"
+    },
+    "target-dir": "Eo/SetefiBundle",
+    "autoload": {
+        "psr-0": {
+            "Eo\\SetefiBundle": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
