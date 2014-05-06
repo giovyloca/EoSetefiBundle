@@ -2,7 +2,7 @@
 
 ## Requirements
 
-This bundle requires Symfony 2.3+
+This bundle requires Symfony 2.4+
 
 ## Installation
 
