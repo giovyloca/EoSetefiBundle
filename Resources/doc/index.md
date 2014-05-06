@@ -13,7 +13,7 @@ Add EoSetefiBundle in your composer.json:
 ```
 {
     "require": {
-        "eo/setefi-bundle": "dev-master"
+        "eo/setefi-bundle": "~0.1"
     }
 }
 ```
