@@ -15,8 +15,10 @@
         "php": ">=5.5.0",
         "symfony/symfony": ">=2.4,<2.6-dev",
         "jms/payment-core-bundle": "~1.0",
-        "eo/jms-payment-extra-bundle": "dev-master",
         "guzzle/guzzle": "~3.7"
+    },
+    "suggest": {
+        "eo/jms-payment-extra-bundle": "for mongo support"
     },
     "target-dir": "Eo/SetefiBundle",
     "autoload": {
